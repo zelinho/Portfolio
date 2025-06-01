@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "main": {
+    "title": "Projects"
+  },
+  "about": {
+    "title": "About",
+    "description": "As a recent computer engineering graduate, I am steadily progressing towards becoming a fully equipped Full Stack developer in .NET technologies and modern web development. I have gained experience in real-world projects using ASP.NET Core, MVC architecture, Entity Framework, and SQL Server. I have practical experience in layered architecture, RESTful API development, user management, and payment integration.\n\nI also develop user-friendly interfaces using frontend technologies such as HTML, CSS, JavaScript, and React.js. Through my graduation project, I developed a clone of lastik.com.tr using the MERN stack, gaining the ability to set up a modern e-commerce infrastructure end-to-end.\n\nDuring my internship, I worked on AI-based projects, developing chatbots using technologies like Dialogflow and ChatGPT API. This has enhanced my ability to integrate different technologies and produce solutions.\n\nAs a software developer who can quickly adapt to innovative technologies, is inclined towards teamwork, and has high analytical thinking skills, I aim to specialize in the .NET ecosystem and participate in value-creating projects.",
+    "location": "Istanbul, Turkey",
+    "contact": {
+      "email": "Email",
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "senior": {
+      "title": "Senior Frontend Developer",
+      "company": "Tech Solutions Inc. | 2021 - Present",
+      "responsibilities": {
+        "1": "• Development and maintenance of modern web applications",
+        "2": "• Leadership in React and Vue.js based projects",
+        "3": "• Performance optimization and code quality improvements"
+      }
+    },
+    "junior": {
+      "title": "Frontend Developer",
+      "company": "Digital Creations Ltd. | 2019 - 2021",
+      "responsibilities": {
+        "1": "• E-commerce platform development",
+        "2": "• Responsive design implementations",
+        "3": "• User interface optimizations"
+      }
+    },
+    "internship1": {
+      "title": "Chatbot Developer Intern",
+      "company": "Brisa Bridgestone Sabancı Tire Manufacturing and Trading Inc. | July 2023 - September 2023",
+      "responsibilities": {
+        "1": "• Had the opportunity to step into the business world for the first time, closely observe a corporate environment, and experience agile and scrum management methods.",
+        "2": "• Started chatbot development work using tools like Dialogflow, taking important steps in the field of artificial intelligence.",
+        "3": "• Enhanced and made the existing chatbot for lastik.com.tr more comprehensive and user-friendly."
+      }
+    },
+    "internship2": {
+      "title": "System Operations Intern",
+      "company": "Brisa Bridgestone Sabancı Tire Manufacturing and Trading Inc. | August 2024 - October 2024",
+      "responsibilities": {
+        "1": "• Gained valuable experience in cybersecurity; had the opportunity to participate in penetration tests and learn ISO standards for identifying and addressing security vulnerabilities.",
+        "2": "• Acquired extensive knowledge in hardware and network management; had the chance to closely examine the operation of switches and access points used in the internet network infrastructure of a large corporate factory.",
+        "3": "• These experiences contributed to strengthening my technical knowledge in both cybersecurity and hardware/network management while helping me understand the importance of teamwork in a large-scale structure."
+      }
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "programming": {
+      "title": "Programming Languages"
+    },
+    "frameworks": {
+      "title": "Frameworks & Libraries"
+    },
+    "tools": {
+      "title": "Tools & Technologies"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "project1": {
+      "title": "HIZLIPAZAR",
+      "subtitle": "E-Commerce Platform",
+      "description": "A modern e-commerce platform. A web application developed with MVC architecture, including essential e-commerce features such as user management, product categorization, cart management, coupon system, balance management, and secure payment integration (credit card, wire transfer/EFT).",
+      "tech": ["ASP.NET Core MVC", "Entity Framework Core", "SQL Server", "Identity Framework", "Bootstrap"]
+    },
+    "project2": {
+      "title": "EVRİM",
+      "subtitle": "Esenler Urban Transformation Information and Value Calculation Platform",
+      "description": "To facilitate the urban transformation process in Esenler district, provide informative content to citizens, and enable them to calculate the value of their properties. A modern web platform that offers citizens the opportunity to calculate their home values with current market data, view neighborhood statistics, and make applications.",
+      "tech": ["React (TypeScript)", "Material UI", "Styled Components", "FastAPI (Python)", "Pandas", "Requests", "BeautifulSoup", "lxml"]
+    },
+    "project3": {
+      "title": "ROBİT",
+      "subtitle": "Smart Customer Support Chatbot",
+      "description": "An AI-powered customer service chatbot developed for e-commerce platforms. Offers automatic response system with Dialogflow and ChatGPT integrations, and live support feature via Telegram.",
+      "tech": ["Node.js", "Express.js", "Dialogflow API", "ChatGPT API", "Telegram Bot API"]
+    },
+    "project4": {
+      "title": "KLON",
+      "subtitle": "Lastik.com.tr clone",
+      "description": "An e-commerce platform developed as a modern clone of Lastik.com.tr. The original site's core features were redesigned using React, Node.js, and MongoDB technologies.",
+      "tech": ["React.js", "Tailwind CSS", "Node.js", "MongoDB", "RESTful API", "JWT Authentication"]
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "social": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "twitter": "Twitter"
+    }
+  }
+} 

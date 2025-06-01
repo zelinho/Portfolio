@@ -1,0 +1,121 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımda",
+    "skills": "Yeteneklerim",
+    "experience": "Deneyimlerim",
+    "projects": "Projelerim"
+  },
+  "main": {
+    "title": "Projelerim"
+  },
+  "about": {
+    "title": "Hakkımda",
+    "description": "Yeni mezun bir bilgisayar mühendisi olarak, .NET teknolojileri ve modern web geliştirme konularında tam donanımlı bir Full Stack geliştirici olma yolunda emin adımlarla ilerliyorum. Özellikle ASP.NET Core, MVC mimarisi, Entity Framework ve SQL Server kullanarak gerçek dünya projelerinde deneyim kazandım. Katmanlı mimari, RESTful API geliştirme, kullanıcı yönetimi ve ödeme entegrasyonu gibi konularda pratik tecrübeye sahibim.\n\nAynı zamanda frontend tarafında HTML, CSS, JavaScript ve React.js gibi teknolojilerle kullanıcı dostu arayüzler geliştiriyorum. Bitirme projem kapsamında MERN stack ile lastik.com.tr klonunu geliştirerek, modern bir e-ticaret altyapısını uçtan uca kurma becerisi kazandım.\n\nStaj sürecimde ise yapay zeka temelli projelerde görev alarak Dialogflow ve ChatGPT API gibi teknolojilerle chatbot geliştirdim. Bu sayede farklı teknolojileri entegre etme ve çözüm üretme yetkinliğimi artırdım.\n\nYenilikçi teknolojilere hızlı adapte olabilen, takım çalışmasına yatkın ve analitik düşünme becerisi yüksek bir yazılım geliştirici olarak, .NET ekosisteminde uzmanlaşmayı ve değer üreten projelerde yer almayı hedefliyorum.",
+    "location": "İstanbul, Türkiye",
+    "contact": {
+      "email": "E-posta",
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "skills": {
+    "title": "Yeteneklerim",
+    "programming": {
+      "title": "Programlama Dilleri",
+      "items": [
+        "JavaScript (ES6+)",
+        "TypeScript",
+        "HTML5",
+        "CSS3/SASS",
+        "Python"
+      ]
+    },
+    "frameworks": {
+      "title": "Framework & Kütüphaneler",
+      "items": [
+        "React.js",
+        "Vue.js",
+        "Next.js",
+        "Tailwind CSS",
+        "Bootstrap"
+      ]
+    },
+    "tools": {
+      "title": "Araçlar & Teknolojiler",
+      "items": [
+        "Git & GitHub",
+        "Webpack",
+        "Docker",
+        "Figma",
+        "Jest"
+      ]
+    }
+  },
+  "experience": {
+    "title": "Deneyimlerim",
+    "senior": {
+      "title": "Kıdemli Frontend Geliştirici",
+      "company": "Tech Solutions A.Ş. | 2021 - Günümüz",
+      "responsibilities": {
+        "1": "• Modern web uygulamaları geliştirme ve bakımı",
+        "2": "• React ve Vue.js tabanlı projelerde liderlik",
+        "3": "• Performans optimizasyonu ve kod kalitesi iyileştirmeleri"
+      }
+    },
+    "junior": {
+      "title": "Frontend Geliştirici",
+      "company": "Digital Creations Ltd. | 2019 - 2021",
+      "responsibilities": {
+        "1": "• E-ticaret platformları geliştirme",
+        "2": "• Responsive tasarım implementasyonları",
+        "3": "• Kullanıcı arayüzü optimizasyonları"
+      }
+    },
+    "internship1": {
+      "title": "Stajyer Chatbot Developer",
+      "company": "Brisa Bridgestone Sabancı Lastik San. Tic. A.Ş. | Temmuz 2023 - Eylül 2023",
+      "responsibilities": {
+        "1": "• İlk kez iş dünyasına adım atarak kurumsal bir ortamı yakından gözlemleme ve agile ile scrum yönetim yöntemlerini deneyimleme fırsatı buldum.",
+        "2": "• Yapay zeka alanında önemli adımlar atarak Dialogflow gibi araçları kullanarak chatbot geliştirme çalışmalarına başladım.",
+        "3": "• Lastik satış sitesi olan lastik.com.tr için mevcut chatbotu geliştirip daha kapsamlı ve kullanıcı dostu bir hale getirdim."
+      }
+    },
+    "internship2": {
+      "title": "Sistem Operasyon Stajyeri",
+      "company": "Brisa Bridgestone Sabancı Lastik San. Tic. A.Ş. | Ağustos 2024 - Ekim 2024",
+      "responsibilities": {
+        "1": "• Siber güvenlik alanında değerli deneyimler kazandım; sızma testlerine katılarak güvenlik açıklarını belirleme ve gidermeye yönelik ISO standartlarını öğrenme fırsatım oldu.",
+        "2": "• Donanım ve ağ yönetimi konusunda geniş bir bilgi edindim; büyük bir kurumsal fabrikanın internet ağ altyapısında kullanılan switch'ler ve access point'lerin işleyişini yakından inceleme şansım oldu.",
+        "3": "• Bu deneyimler, hem siber güvenlik hem de donanım ve ağ yönetimi alanında teknik bilgilerimi pekiştirirken, büyük ölçekli bir yapıda çalışırken ekip olmanın önemini kavramama katkıda bulundu."
+      }
+    }
+  },
+  "projects": {
+    "title": "Projelerim",
+    "project1": {
+      "title": "HIZLIPAZAR",
+      "subtitle": "E-Ticaret Platformu",
+      "description": "Modern bir e-ticaret platformu. Kullanıcı yönetimi, ürün kategorilendirme, sepet yönetimi, kupon sistemi, bakiye yönetimi ve güvenli ödeme entegrasyonu (kredi kartı, havale/EFT) gibi temel e-ticaret özelliklerini içeren, MVC mimarisi ile geliştirilmiş web uygulaması.",
+      "tech": ["ASP.NET Core MVC", "Entity Framework Core", "SQL Server", "Identity Framework", "Bootstrap"]
+    },
+    "project2": {
+      "title": "EVRİM",
+      "subtitle": "Esenler Kentsel Dönüşüm Bilgi ve Değer Hesaplama Platformu",
+      "description": "Esenler ilçesindeki kentsel dönüşüm sürecini kolaylaştırmak, vatandaşlara bilgilendirici içerik sunmak ve gayrimenkullerin değerini hesaplamalarını sağlamak. Vatandaşlara güncel piyasa verileriyle evlerinin değerini hesaplama, mahalle istatistiklerini görüntüleme ve başvuru yapma imkanı sunan modern bir web platformu.",
+      "tech": ["React (TypeScript)", "Material UI", "Styled Components", "FastAPI (Python)", "Pandas", "Requests", "BeautifulSoup", "lxml"]
+    },
+    "project3": {
+      "title": "ROBİT",
+      "subtitle": "Akıllı Müşteri Destek Chatbotu",
+      "description": "E-ticaret platformları için geliştirilen, yapay zeka destekli müşteri hizmetleri chatbotu. Dialogflow ve ChatGPT entegrasyonları ile otomatik yanıt sistemi, Telegram üzerinden canlı destek özelliği sunuyor.",
+      "tech": ["Node.js", "Express.js", "Dialogflow API", "ChatGPT API", "Telegram Bot API"]
+    },
+    "project4": {
+      "title": "KLON",
+      "subtitle": "Lastik.com.tr klonu",
+      "description": "Lastik.com.tr'nin modern bir klonu olarak geliştirilen e-ticaret platformu. Orijinal sitenin temel özelliklerini React, Node.js ve MongoDB teknolojileri kullanılarak yeniden tasarlandı.",
+      "tech": ["React.js", "Tailwind CSS", "Node.js", "MongoDB", "RESTful API", "JWT Authentication"]
+    }
+  }
+} 

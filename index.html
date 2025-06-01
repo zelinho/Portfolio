@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV & Projelerim</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#about">
+                    <img src="img/zelinho.png" alt="Zelinho Logo" class="logo-image">
+                </a>
+            </div>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-links">
+                <a href="#about" class="nav-link" data-i18n="nav.about">Hakkımda</a>
+                <a href="#skills" class="nav-link" data-i18n="nav.skills">Yeteneklerim</a>
+                <a href="#experience" class="nav-link" data-i18n="nav.experience">Deneyimlerim</a>
+                <a href="#projects" class="nav-link" data-i18n="nav.projects">Projelerim</a>
+                <button class="theme-toggle" id="themeToggle" aria-label="Tema Değiştir">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <div class="lang-select mobile-lang">
+                    <button class="lang-toggle" id="langToggleMobile">
+                        <span class="lang-text">TR</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="lang-dropdown">
+                        <button class="lang-option" data-lang="tr">TR</button>
+                        <button class="lang-option" data-lang="en">EN</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="settings-buttons desktop-lang">
+        <div class="lang-select">
+            <button class="lang-toggle" id="langToggle">
+                <span class="lang-text">TR</span>
+                <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="lang-dropdown">
+                <button class="lang-option" data-lang="tr">TR</button>
+                <button class="lang-option" data-lang="en">EN</button>
+            </div>
+        </div>
+    </div>
+    <!-- CV Bölümleri -->
+    <section id="about" class="cv-section">
+        <div class="section-content">
+
+            <div class="about-container">
+                <div class="about-left">
+                    <div class="profile-image">
+                        <img src="img/profile.png" alt="Profil Fotoğrafı">
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <a href="mailto:zelinhocan@gmail.com" class="contact-button">
+                                <i class="fas fa-envelope"></i>
+                                <span data-i18n="about.contact.email">E-posta</span>
+                            </a>
+                        </div>
+                        <div class="contact-item">
+                            <a href="https://github.com/zelinhocan" target="_blank" class="contact-button">
+                                <i class="fab fa-github"></i>
+                                <span data-i18n="about.contact.github">GitHub</span>
+                            </a>
+                        </div>
+                        <div class="contact-item">
+                            <a href="https://linkedin.com/in/zelinhocan" target="_blank" class="contact-button">
+                                <i class="fab fa-linkedin"></i>
+                                <span data-i18n="about.contact.linkedin">LinkedIn</span>
+                            </a>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-button location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span data-i18n="about.location">İstanbul, Türkiye</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-right">
+                    <div class="section-text">
+                        <p data-i18n="about.description">Yeni mezun bir bilgisayar mühendisi olarak, .NET teknolojileri ve modern web geliştirme konularında tam donanımlı bir Full Stack geliştirici olma yolunda emin adımlarla ilerliyorum. Özellikle ASP.NET Core, MVC mimarisi, Entity Framework ve SQL Server kullanarak gerçek dünya projelerinde deneyim kazandım. Katmanlı mimari, RESTful API geliştirme, kullanıcı yönetimi ve ödeme entegrasyonu gibi konularda pratik tecrübeye sahibim.
+
+Aynı zamanda frontend tarafında HTML, CSS, JavaScript ve React.js gibi teknolojilerle kullanıcı dostu arayüzler geliştiriyorum. Bitirme projem kapsamında MERN stack ile lastik.com.tr klonunu geliştirerek, modern bir e-ticaret altyapısını uçtan uca kurma becerisi kazandım.
+
+Staj sürecimde ise yapay zeka temelli projelerde görev alarak Dialogflow ve ChatGPT API gibi teknolojilerle chatbot geliştirdim. Bu sayede farklı teknolojileri entegre etme ve çözüm üretme yetkinliğimi artırdım.
+
+Yenilikçi teknolojilere hızlı adapte olabilen, takım çalışmasına yatkın ve analitik düşünme becerisi yüksek bir yazılım geliştirici olarak, .NET ekosisteminde uzmanlaşmayı ve değer üreten projelerde yer almayı hedefliyorum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="cv-section">
+        <div class="section-content">
+            <h1 class="section-title" data-i18n="skills.title">Yeteneklerim</h1>
+            <div class="section-text">
+                <div class="skills-category">
+                    <h2 data-i18n="skills.programming.title">Programlama Dilleri</h2>
+                    <div class="skills-grid">
+                        <div class="skill-item">JavaScript (ES6+)</div>
+                        <div class="skill-item">TypeScript</div>
+                        <div class="skill-item">C#</div>
+                        <div class="skill-item">Python</div>
+                        <div class="skill-item">HTML5</div>
+                        <div class="skill-item">CSS3/SASS</div>
+                    </div>
+                </div>
+                <br>
+                <div class="skills-category">
+                    <h2 data-i18n="skills.frameworks.title">Framework & Kütüphaneler</h2>
+                    <div class="skills-grid">
+                        <div class="skill-item">React.js</div>
+                        <div class="skill-item">ASP.NET Core MVC</div>
+                        <div class="skill-item">Node.js</div>
+                        <div class="skill-item">Express.js</div>
+                        <div class="skill-item">FastAPI</div>
+                        <div class="skill-item">Tailwind CSS</div>
+                        <div class="skill-item">Bootstrap</div>
+                        <div class="skill-item">Styled Components</div>
+                    </div>
+                </div>
+                <br>
+                <div class="skills-category">
+                    <h2 data-i18n="skills.tools.title">Araçlar & Teknolojiler</h2>
+                    <div class="skills-grid">
+                        <div class="skill-item">Git & GitHub</div>
+                        <div class="skill-item">MongoDB</div>
+                        <div class="skill-item">SQL Server</div>
+                        <div class="skill-item">Entity Framework Core</div>
+                        <div class="skill-item">Dialogflow API</div>
+                        <div class="skill-item">ChatGPT API</div>
+                        <div class="skill-item">Telegram Bot API</div>
+                        <div class="skill-item">RESTful API</div>
+                        <div class="skill-item">JWT Authentication</div>
+                        <div class="skill-item">Pandas</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="cv-section">
+        <div class="section-content">
+            <h1 class="section-title" data-i18n="experience.title">Deneyimlerim</h1>
+            <div class="section-text">
+                <div class="experience-item">
+                    <h2 data-i18n="experience.internship1.title">Stajyer Chatbot Developer</h2>
+                    <h3 data-i18n="experience.internship1.company">Brisa Bridgestone Sabancı Lastik San. Tic. A.Ş. | Temmuz 2023 - Eylül 2023</h3>
+                    <p data-i18n="experience.internship1.responsibilities.1">• İlk kez iş dünyasına adım atarak kurumsal bir ortamı yakından gözlemleme ve agile ile scrum yönetim yöntemlerini deneyimleme fırsatı buldum.</p>
+                    <p data-i18n="experience.internship1.responsibilities.2">• Yapay zeka alanında önemli adımlar atarak Dialogflow gibi araçları kullanarak chatbot geliştirme çalışmalarına başladım.</p>
+                    <p data-i18n="experience.internship1.responsibilities.3">• Lastik satış sitesi olan lastik.com.tr için mevcut chatbotu geliştirip daha kapsamlı ve kullanıcı dostu bir hale getirdim.</p>
+                </div>
+                <br>
+                <div class="experience-item">
+                    <h2 data-i18n="experience.internship2.title">Sistem Operasyon Stajyeri</h2>
+                    <h3 data-i18n="experience.internship2.company">Brisa Bridgestone Sabancı Lastik San. Tic. A.Ş. | Ağustos 2024 - Ekim 2024</h3>
+                    <p data-i18n="experience.internship2.responsibilities.1">• Siber güvenlik alanında değerli deneyimler kazandım; sızma testlerine katılarak güvenlik açıklarını belirleme ve gidermeye yönelik ISO standartlarını öğrenme fırsatım oldu.</p>
+                    <p data-i18n="experience.internship2.responsibilities.2">• Donanım ve ağ yönetimi konusunda geniş bir bilgi edindim; büyük bir kurumsal fabrikanın internet ağ altyapısında kullanılan switch'ler ve access point'lerin işleyişini yakından inceleme şansım oldu.</p>
+                    <p data-i18n="experience.internship2.responsibilities.3">• Bu deneyimler, hem siber güvenlik hem de donanım ve ağ yönetimi alanında teknik bilgilerimi pekiştirirken, büyük ölçekli bir yapıda çalışırken ekip olmanın önemini kavramama katkıda bulundu.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projelerim Bölümü -->
+    <div id="projects" class="projects-section">
+        <div class="container">
+            <div class="background first-bg"></div>
+            <div class="background second-bg">
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+            </div>
+            <div class="background second-bg second-set">
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+            </div>
+            <div class="background second-bg third-set">
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+            </div>
+            <div class="background second-bg fourth-set">
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+            </div>
+            <div class="content">
+                <h1 class="main-title" data-i18n="main.title">Projelerim</h1>
+                <div class="scroll-indicator">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Proje Kartları -->
+        <div class="project-card">
+            <div class="project-info">
+                <h1 class="project-title" data-i18n="projects.project1.title">HIZLIPAZAR</h1>
+                <p class="project-subtitle" data-i18n="projects.project1.subtitle">E-Ticaret Platformu</p>
+                <p class="project-description" data-i18n="projects.project1.description">
+                    Modern bir e-ticaret platformu. Kullanıcı yönetimi, ürün kategorilendirme, sepet yönetimi, kupon sistemi, bakiye yönetimi ve güvenli ödeme entegrasyonu (kredi kartı, havale/EFT) gibi temel e-ticaret özelliklerini içeren, MVC mimarisi ile geliştirilmiş web uygulaması.
+                </p>
+            </div>
+            <div class="project-number">1-4</div>
+            <div class="image-container">
+                <div class="project-image">
+                    <a href="https://hizlipazar.com" target="_blank">
+                        <img src="img/hızlıpazarimage.png" alt="Proje Görseli">
+                    </a>
+                </div>
+                <div class="tech-stack">
+                    <span class="tech-tag">ASP.NET Core MVC</span>
+                    <span class="tech-tag">Entity Framework Core</span>
+                    <span class="tech-tag">SQL Server</span>
+                    <span class="tech-tag">Identity Framework</span>
+                    <span class="tech-tag">Bootstrap</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card second-project">
+            <div class="project-info">
+                <h1 class="project-title" data-i18n="projects.project2.title">EVRİM</h1>
+                <p class="project-subtitle" data-i18n="projects.project2.subtitle">Esenler Kentsel Dönüşüm Bilgi ve Değer Hesaplama Platformu</p>
+                <p class="project-description" data-i18n="projects.project2.description">
+                    Esenler ilçesindeki kentsel dönüşüm sürecini kolaylaştırmak, vatandaşlara bilgilendirici içerik sunmak ve gayrimenkullerin değerini hesaplamalarını sağlamak. Vatandaşlara güncel piyasa verileriyle evlerinin değerini hesaplama, mahalle istatistiklerini görüntüleme ve başvuru yapma imkanı sunan modern bir web platformu.
+                </p>
+            </div>
+            <div class="project-number">2-4</div>
+            <div class="image-container">
+                <div class="project-image">
+                    <a href="https://evrim.com.tr" target="_blank">
+                        <img src="img/EvRim.PNG" alt="Proje Görseli">
+                    </a>
+                </div>
+                <div class="tech-stack">
+                    <span class="tech-tag">React (TypeScript)</span>
+                    <span class="tech-tag">Material UI</span>
+                    <span class="tech-tag">Styled Components</span>
+                    <span class="tech-tag">FastAPI (Python)</span>
+                    <span class="tech-tag">Pandas</span>
+                    <span class="tech-tag">BeautifulSoup</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card third-project">
+            <div class="project-info">
+                <h1 class="project-title" data-i18n="projects.project3.title">ROBİT</h1>
+                <p class="project-subtitle" data-i18n="projects.project3.subtitle">Akıllı Müşteri Destek Chatbotu</p>
+                <p class="project-description" data-i18n="projects.project3.description">
+                    E-ticaret platformları için geliştirilen, yapay zeka destekli müşteri hizmetleri chatbotu. Dialogflow ve ChatGPT entegrasyonları ile otomatik yanıt sistemi, Telegram üzerinden canlı destek özelliği sunuyor.
+                </p>
+            </div>
+            <div class="project-number">3-4</div>
+            <div class="image-container">
+                <div class="project-image">
+                    <a href="https://robit.vercel.app/" target="_blank">
+                        <img src="img/Robit.PNG" alt="Proje Görseli">
+                    </a>
+                </div>
+                <div class="tech-stack">
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">Express.js</span>
+                    <span class="tech-tag">Dialogflow API</span>
+                    <span class="tech-tag">ChatGPT API</span>
+                    <span class="tech-tag">Telegram Bot API</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card fourth-project">
+            <div class="project-info">
+                <h1 class="project-title" data-i18n="projects.project4.title">KLON</h1>
+                <p class="project-subtitle" data-i18n="projects.project4.subtitle">Lastik.com.tr klonu</p>
+                <p class="project-description" data-i18n="projects.project4.description">
+                    Lastik.com.tr'nin modern bir klonu olarak geliştirilen e-ticaret platformu. Orijinal sitenin temel özelliklerini React, Node.js ve MongoDB teknolojileri kullanılarak yeniden tasarlandı.
+                </p>
+            </div>
+            <div class="project-number">4-4</div>
+            <div class="image-container">
+                <div class="project-image">
+                    <a href="https://lastikmarketi.vercel.app/" target="_blank">
+                        <img src="img/Lastik.com.tr.PNG" alt="Proje Görseli">
+                    </a>
+                </div>
+                <div class="tech-stack">
+                    <span class="tech-tag">React.js</span>
+                    <span class="tech-tag">Tailwind CSS</span>
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">MongoDB</span>
+                    <span class="tech-tag">RESTful API</span>
+                    <span class="tech-tag">JWT</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll-bar">
+        <div class="scroll-progress"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
