@@ -378,7 +378,6 @@ body {
         height: 84vh;
         min-height: unset;
         max-height: unset;
-        overflow-y: auto;
         margin-top: 20px;
         display: flex;
     }
